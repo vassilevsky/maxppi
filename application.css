@@ -49,6 +49,14 @@ td {
 .source * {
   color: silver;
 }
+
+.last_update {
+  position: absolute;
+  top: 3px;
+  right: 5px;
+  color: silver;
+  font-size: x-small;
+}
 /*
  * This is a manifest file that'll be compiled into application.css, which will include all the files
  * listed below.
