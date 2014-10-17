@@ -18,6 +18,12 @@ td {
   background-color: lightblue;
 }
 
+.line-diagonal {
+  height: 6px;
+  border-radius: 3px;
+  background-color: gray;
+}
+
 .ppi .value {
   font-weight: bold;
 }
