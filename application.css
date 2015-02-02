@@ -7,6 +7,11 @@ h1 {
   font-weight: normal;
 }
 
+.description {
+  font-size: smaller;
+  color: silver;
+}
+
 td {
   padding-right: 1em;
 }
