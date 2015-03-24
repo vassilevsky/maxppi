@@ -12,23 +12,33 @@ h1 {
   color: silver;
 }
 
-td {
-  padding-right: 1em;
-}
-
 .line {
-  float: right;
-  height: 6px;
-  border-radius: 3px;
-  background-color: lightblue;
+  height: 18px;
+  background-color: #B6DA8C;
 }
 
 .line-diagonal {
-  height: 6px;
-  border-radius: 3px;
-  background-color: gray;
+  height: 18px;
+  background-color: #F1E49B;
 }
 
+.line-price {
+  height: 18px;
+  background-color: #8070A5;
+}
+
+.line-ppi-cost {
+  height: 18px;
+  background-color: #D086A3;
+}
+
+.box-resolution {
+  background-color: #D6C66C;
+}
+
+.ppi {
+  text-align: right;
+}
 .ppi .value {
   font-weight: bold;
 }
@@ -37,8 +47,16 @@ td {
   text-align: right;
 }
 
+.offers_count {
+  color: silver;
+}
+
 .price {
   font-weight: bold;
+}
+
+.price_diff {
+  text-align: right;
 }
 
 .negative {
@@ -50,6 +68,7 @@ td {
 }
 
 .ppi_cost {
+  padding-left: 1em;
   text-align: right;
 }
 
